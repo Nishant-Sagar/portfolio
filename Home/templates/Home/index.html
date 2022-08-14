@@ -37,7 +37,7 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
+				<div class="col-md-8 col-md-offset-2 text-center" id="top33">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url({% static 'images/image1.jpeg' %});"></div>
@@ -285,6 +285,14 @@
 	<script src="{% static 'js/jquery.easypiechart.min.js' %}"></script>
 	<!-- Main -->
 	<script src="{% static 'js/main.js' %}"></script>
+	<script>
+		var k = document.getElementById('fh5co-header');
+		k.style.maxHeight = "600px";
+		k = document.getElementById('top33');
+		k.style.maxHeight = "600px";
+		k = document.getElementById("fh5co-about");
+		k.style.padding = "50px"
+	</script>
 
 	</body>
 </html>
